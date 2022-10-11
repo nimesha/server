@@ -1,0 +1,38 @@
+{
+    "env": {
+        "browser": true,
+        "es2021": true
+    },
+    "extends": "standard",
+    "overrides": [],
+    "parserOptions": {
+        "ecmaVersion": "latest",
+        "sourceType": "module"
+    },
+    "rules": {
+        "indent": [
+            "error",
+            4
+        ],
+        "strict": [
+            "error",
+            "global"
+        ],
+        "quotes": [
+            "error",
+            "single"
+        ],
+        "no-var": "error",
+        "no-redeclare": "error",
+        "prefer-const": "error",
+        "one-var": [
+            "error",
+            "never"
+        ],
+        "camelcase": "error",
+        "no-unused-vars": "error",
+        "no-multi-assign": "error",
+        "no-array-constructor": "error",
+        "no-new-object": "error"
+    }
+}
